@@ -1,11 +1,12 @@
-import PageContent from "~/components/PageContent";
+import type { FunctionComponent } from 'preact';
+import PageContent from '~/components/PageContent';
 
-function App() {
+const App: FunctionComponent = () => {
   return (
     <main>
       <PageContent>Foo</PageContent>
     </main>
   );
-}
+};
 
 export default App;

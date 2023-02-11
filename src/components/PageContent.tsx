@@ -1,11 +1,8 @@
-import { useState } from "preact/hooks";
-import "./PageContent.css";
-import logo from "~/assets/logo.svg";
-import type { ComponentChildren } from "preact";
+import type { ComponentChildren } from 'preact';
+import { useState } from 'preact/hooks';
+import './PageContent.css';
 
 function PageContent(props: { children: ComponentChildren }) {
-  const imageUrl = new URL(logo, import.meta.url).href;
-
   const [count, setCount] = useState(0);
 
   return (
