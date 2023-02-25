@@ -1,11 +1,10 @@
 import type { FunctionComponent } from 'preact';
-import PageContent from '~/components/PageContent';
 
 const App: FunctionComponent = () => {
   return (
-    <main>
-      <PageContent>Foo</PageContent>
-    </main>
+    <div className="min-w-[300px] min-h-[600px] drop-shadow">
+      <p>hello world</p>
+    </div>
   );
 };
 
